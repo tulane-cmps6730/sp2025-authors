@@ -106,3 +106,11 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+
+# Ignore heavy model checkpoints
+results/checkpoint-*/  
+*.pt
+*.safetensors
+*.bin
+*.pth
