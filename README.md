@@ -18,7 +18,7 @@ Methods
 
 - Added author tokens (e.g., <|JackLondon|>) to guide style conditioning.
 
-- Used HuggingFace Transformers and fine-tuned GPT-2 / GPT-2 Medium / GPT-2 Large.
+- Used HuggingFace Transformers and fine-tuned GPT-2 Large.
 
 - Trained over multiple epochs with different batch sizes and learning rates to find optimal performance without GPU support.
 
